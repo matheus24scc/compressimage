@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+compressimage/__init__.py
+compressimage/cli.py
+compressimage/core.py
+compressimage.egg-info/PKG-INFO
+compressimage.egg-info/SOURCES.txt
+compressimage.egg-info/dependency_links.txt
+compressimage.egg-info/entry_points.txt
+compressimage.egg-info/requires.txt
+compressimage.egg-info/top_level.txt
+tests/test_compressimage.py

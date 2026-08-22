@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compressimage"
+version = "0.1.0"
+description = "compressimage (zero-dep)"
+requires-python = ">=3.11"
+dependencies = ["pillow"]
+
+[project.scripts]
+compressimage = "compressimage.cli:main"
+
+[tool.setuptools]
+packages = ["compressimage"]
